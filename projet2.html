@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="projet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ 
+</head>
+<body>
+<a id="page2"></a>
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-light navb">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sayyefi<span>.tn</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="projet.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Location
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Tunis</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Benzart</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Nabeul</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sousse</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Monastir</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mahdia</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Djerba</a></li>
+                </ul>
+              </li>
+               
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#page2">Lodgings</a>
+              </li>
+
+             
+            </ul>
+            <div  class="liked"><i onclick="show()" class="fa-solid fa-heart"> </i><span onclick="show()"> Liked items</span><span id="dropdown"></span> <h3 onclick="show()" id="number">0</h3> </div>
+            <div>
+                  <span>Sign out <i class="fa-solid fa-arrow-right-from-bracket"></i></span>
+            </div>
+          </div>
+             
+        </div>
+      </nav>
+
+
+<div class="body">
+  <aside class="aside">
+    <h2><i class="fa-solid fa-filter"></i>Filters</h2>
+    
+     <section class="main">
+      <div class="side">
+         
+         
+          <div class="types">
+              <span><i class="fa-solid fa-house"></i>Types</span>
+              <div>
+              <input class="check" type="checkbox" name="" value="cabin">
+              <label for="">Cabins</label>
+          </div>
+          <div>
+              <input class="check" type="checkbox" name="" value="villa">
+              <label for="">Villas</label>
+          </div>
+          <div>
+              <input class="check" type="checkbox" name="" value="app">
+              <label for="">Appartements</label>
+          </div>
+          </div>
+          <div class="loc">
+            <i class="fa-solid fa-location-dot"></i> Location
+            <div class="nss">
+              <div><input type="checkbox" name="" id="">
+                <label for="">North</label></div>
+              <div>
+                <input type="checkbox" name="" id="">
+              <label for="">Sahel</label>
+              </div>
+              <div><input type="checkbox" name="" id="">
+                <label for="">South</label></div>
+            </div>
+          </div>
+          <div>
+          <p><i class="fa-solid fa-hand-holding-dollar"></i>Price range</p>
+             <form action="">
+              <input type="range" min="0" max="10">
+             </form>
+          </div>
+          
+      </div>
+
+
+</aside>
+
+
+<div class="cards">
+  
+<section class="villas">
+          
+
+  <div class="card2">
+    <div><img src="dar.jpg" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+  </div>
+
+
+  <div class="card2">
+    <div><img src="dar1.webp" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+
+  </div>
+  <div class="card2">
+    <div><img src="dar2.jpeg" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+  </div>
+
+  <div class="card2">
+    <div><img src="dar3.webp" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+  </div>
+
+
+
+  <div class="card2">
+    <div><img src="dar4.webp" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+  </div>
+
+  <div class="card2">
+    <div><img src="dar5.webp" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+  </div>
+
+  <div class="card2">
+    <div><img src="dar6.webp" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+  </div>
+
+  <div class="card2">
+    <div><img src="dar7.webp" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+    </div>
+    <button>Book now!</button>
+  </div>
+
+  <div class="card2">
+    <div><img src="dar4.jpg" alt=""></div>
+    <div>
+       <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+       
+    </div>
+    <button>Book now!</button>
+  </div>
+
+
+
+</section>
+<section class="cabins">
+<div class="card2">
+  <div><img src="cab1.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+
+<div class="card2">
+  <div><img src="cab2.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+
+</div>
+<div class="card2">
+  <div><img src="cab3.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="cab4.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+
+
+<div class="card2">
+  <div><img src="cab5.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="cab6.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="cab7.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="cab8.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="cab9.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+     
+  </div>
+  <button>Book now!</button>
+</div>
+</section>
+<section class="apps">
+<div class="card2">
+  <div><img src="app0.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+
+<div class="card2">
+  <div><img src="app1.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+
+</div>
+<div class="card2">
+  <div><img src="app2.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="app3.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+
+
+<div class="card2">
+  <div><img src="app4.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="app5.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="app6.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="app7.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+  </div>
+  <button>Book now!</button>
+</div>
+
+<div class="card2">
+  <div><img src="app8.jpg" alt=""></div>
+  <div>
+     <span>house Description  <i class="fa-solid fa-heart heart"></i></span>
+     
+  </div>
+  <button>Book now!</button>
+</div>
+</section>
+</div>
+ </div>      
+
+
+<section class="sectf">
+    <footer>
+      <ul>
+       <div><a href=""><i class="fa-brands fa-facebook-square"></i></a>
+           <a href=""><i class="fa-brands fa-instagram"></i></a>
+           <a href=""><i class="fa-brands fa-twitter"></i></a>
+       </div>
+         <div>
+          <a href="">Info-Support</a>-<a href="">Marketing</a>
+         </div>
+         <div>
+           <a href="">Terms of Use</a>-<a href="">privacy Policy</a>
+         </div>
+         <div class="foot-title">
+           Sayyefi.tn
+         </div>
+       </div>
+      </ul>
+
+
+
+
+
+
+      </footer>
+      </section>
+
+
+<script></script>
+<script src="projet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
